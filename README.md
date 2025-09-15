@@ -33,3 +33,6 @@
 
 
 <p>le projet est inspiré</p>https://github.com/nalron/project_electricity_forecasting/tree/french_version
+
+<p>Pour comprend les model en détaille :</p>
+https://perso.univ-rennes1.fr/valerie.monbet/ST_M1/CoursST2017_1.pdf
