@@ -36,6 +36,19 @@
 <a href="https://github.com/nalron/project_electricity_forecasting/tree/french_version" target="_blank">https://github.com/nalron/project_electricity_forecasting/tree/french_version</a>
 </p>
 
+<h2>Étapes du projet</h2>
+<ol>
+  <li><strong>Visualisation des données</strong> : explorer les séries temporelles, identifier les tendances, saisonnalités et anomalies.</li>
+  <li><strong>Nettoyage des données</strong> : traiter les valeurs manquantes et les anomalies.</li>
+  <li><strong>Correction de la consommation</strong> : ajuster les valeurs en fonction des variations climatiques et des degrés-jours de chauffage (DJU). Pour plus de détails, consulter le lien : 
+    <a href="https://www.enoptea.fr/articles/comment-corriger-mes-consommations-denergie-en-fonction-des-variations-climatiques-dju/" target="_blank">
+    https://www.enoptea.fr/articles/comment-corriger-mes-consommations-denergie-en-fonction-des-variations-climatiques-dju/
+    </a>
+  </li>
+  <li><strong>Application des modèles de prévision</strong> : OLS, Holt-Winters, SARIMA, SARIMAX.</li>
+  <li><strong>Évaluation des performances</strong> : comparer les prévisions avec les valeurs réelles et calculer les métriques d’erreur (MAE, RMSE, etc.).</li>
+</ol>
+
 <div style="margin-top: 20px;"></div>
 
 <p>Pour comprendre les modèles en détail :<br>
