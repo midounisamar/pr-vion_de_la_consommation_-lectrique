@@ -1,3 +1,35 @@
 <h1>Projet : Prévision de consommation d'énergie</h1>
 
+<h2>Objectif du projet</h2>
+<p>Prévoir la <strong>consommation d’électricité en France</strong>, de manière <strong>mensuelle ou quotidienne</strong> selon la granularité des données disponibles, en prenant en compte plusieurs facteurs tels que la <strong>saisonnalité</strong> et la <strong>température</strong>.</p>
+<p>Pour cela, nous utilisons des méthodes avancées de séries temporelles :</p>
+<ul>
+  <li><strong>Holt-Winters</strong> (lissage exponentiel)</li>
+  <li><strong>SARIMA</strong> (Seasonal ARIMA)</li>
+  <li><strong>SARIMAX</strong> (SARIMA avec variables exogènes, par exemple la température)</li>
+</ul>
+
+<h2>Outils utilisés</h2>
+<ul>
+  <li><strong>VS Code</strong> avec l’extension <strong>Jupyter</strong> pour travailler avec des notebooks Python interactifs</li>
+  <li>Bibliothèques Python : 
+    <ul>
+      <li><code>pandas</code>, <code>numpy</code> → manipulation et traitement des données</li>
+      <li><code>matplotlib</code>, <code>seaborn</code> → visualisation des séries temporelles</li>
+      <li><code>statsmodels</code> → implémentation des modèles Holt-Winters, SARIMA et SARIMAX</li>
+      <li><code>scikit-learn</code> → métriques et prétraitement</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Compétences développées</h2>
+<ul>
+  <li>Maîtriser les <strong>méthodes de lissage</strong> et la méthode <strong>Holt-Winters</strong></li>
+  <li>Comprendre les <strong>composantes d’une série temporelle</strong> et les <strong>modèles de décomposition</strong></li>
+  <li>Maîtriser les <strong>modèles SARIMA et SARIMAX</strong> pour les prévisions saisonnières</li>
+  <li>Savoir <strong>représenter graphiquement</strong> une série temporelle et analyser ses tendances et saisonnalités</li>
+</ul>
+
+
+
 <p>le projet est inspiré</p>https://github.com/nalron/project_electricity_forecasting/tree/french_version
