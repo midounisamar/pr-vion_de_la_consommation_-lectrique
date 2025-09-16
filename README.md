@@ -49,8 +49,28 @@
   <li><strong>Évaluation des performances</strong> : comparer les prévisions avec les valeurs réelles et calculer les métriques d’erreur (MAE, RMSE, etc.).</li>
 </ol>
 
+
+
 <div style="margin-top: 20px;"></div>
 
 <p>Pour comprendre les modèles en détail :<br>
 <a href="https://perso.univ-rennes1.fr/valerie.monbet/ST_M1/CoursST2017_1.pdf" target="_blank">https://perso.univ-rennes1.fr/valerie.monbet/ST_M1/CoursST2017_1.pdf</a>
 </p>
+
+<h2>les bibléothéques utilisées:</h2>
+<pre>
+import pandas as pd                   # Pour manipuler et analyser des données tabulaires (CSV, DataFrame)
+import matplotlib.pyplot as plt       # Pour tracer des graphiques simples (courbes, histogrammes, scatter plots)
+import seaborn as sns                 # Pour créer des visualisations statistiques et esthétiques (heatmaps, boxplots)
+from sklearn.linear_model import LinearRegression  # Pour construire des modèles de régression linéaire
+import numpy as np                    # Pour effectuer des calculs numériques et manipuler des tableaux/matrices
+import statsmodels.api as sm          # Pour réaliser des modèles statistiques avancés et des tests
+from statsmodels.graphics.gofplots import ProbPlot  # Pour tracer des Q-Q plots et vérifier la normalité des résidus
+from statsmodels.tsa.seasonal import seasonal_decompose  # Pour décomposer une série temporelle en tendance, saisonnalité et résidu
+from statsmodels.tsa.holtwinters import ExponentialSmoothing  # Pour appliquer le modèle Holt-Winters (saison + tendance)
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score  # Pour évaluer les performances des modèles
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf  # Pour visualiser l’autocorrélation et la partial autocorrélation
+from statsmodels.tsa.statespace.sarimax import SARIMAX  # Pour construire des modèles SARIMAX avec ARIMA + saisonnalité + variables exogènes
+import itertools                       # Pour générer automatiquement des combinaisons et permutations de paramètres
+</pre>
+
